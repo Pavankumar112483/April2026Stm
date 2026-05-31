@@ -220,7 +220,19 @@
     .header { padding: 1rem; }
     .mini-stats { grid-template-columns: 1fr; }
   }
-</style>
+ <style>
+  /* Adjust container padding and width for mobile devices */
+  @media (max-width: 768px) {
+    .container-lg {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      margin-top: 2rem !important;
+    }
+    h1 {
+      font-size: 1.5rem; /* Scales down header for small screens */
+    }
+  }
+</style> 
 </head>
 <body>
 
